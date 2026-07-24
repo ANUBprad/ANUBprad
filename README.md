@@ -12,51 +12,93 @@
 
 ---
 
+### CURRENT STATUS
+
+```
+  ┌─────────────────────────────────────────────────────────────────┐
+  │  SUBJECT         :  Anubhab Pradhan  ·  @ANUBprad              │
+  │  LOCATION        :  Bengaluru, Karnataka, IN                    │
+  │  CURRENT COVER   :  B.E. student  ·  CMRIT  ·  Final year      │
+  │  REAL OCCUPATION :  Building production LLM systems             │
+  │                                                                 │
+  │  🔴  ACTIVELY BUILDING   —  New operation in progress          │
+  │  🟡  PLACEMENT WINDOW    —  Opens August 2026                  │
+  │  🟢  OPEN SOURCE         —  PRs being filed as you read this   │
+  │                                                                 │
+  │  AVAILABILITY    :  Full-time from June 2027                   │
+  │  OPEN TO         :  AI-native startups  ·  FAANG  ·  Research  │
+  │  WILL NOT DO     :  Tutorial projects  ·  Demo-only roles      │
+  └─────────────────────────────────────────────────────────────────┘
+```
+
+---
+
 ### ⚠ KNOWN OPERATIONS
 
-> *We thought we understood what he was building. We were wrong.*
-> *By the time we identified the first system, three more were already running.*
-
-| OPERATION | FIELD ASSESSMENT |
+| OPERATION | CLASSIFIED BRIEF |
 |-----------|-----------------|
-| **RedOps** | This one kept us up at night. Subject built a self-directing attack network that hunts weaknesses in LLM systems — prompt injection, jailbreaks, hallucination traps, bias exploits, toxicity induction, semantic drift. Six vectors. 100+ live payloads, all logged, all scored. The system plans its next move autonomously. FastAPI handles the surface. Celery runs the workers. Redis queues the hits. PostgreSQL keeps the receipts. Nobody pulls the trigger twice. It does that itself. |
-| **Kairos** | Four agents. One cell. The Planner picks the target. The Retriever goes dark and pulls intelligence from ChromaDB. The Reasoner connects what nobody else could connect. The Validator makes sure nothing leaves without clearance. LangGraph is the chain of command. Llama 3 is the brain. Subject assembled this from nothing and it has been running unsupervised ever since. We still don't know everything it has access to. |
-| **APEXiq** | You talk to it like a person. It goes into the database and comes back with answers. F1 race telemetry, business intelligence, structured queries — the agents handle all of it. They write the SQL, check their own work, and report back clean. No analyst required. No SQL required. Subject built this because he thought manually querying databases was beneath him. He was right. |
-| **DeepDive** | Subject got tired of watching videos. So he built something that does it for him. Pulls the audio. Whisper transcribes every word. FAISS chunks and indexes it. Hours of footage become interrogatable in seconds. Bilingual — English and Hindi — because the target audience crosses both. Runs entirely on free APIs. Infrastructure cost: zero. Ambition: uncapped. |
+| **RedOps** | Autonomous LLM red-teaming network. Six attack vectors. 100+ live payloads. Scores itself. Nobody pulls the trigger twice. |
+| **Kairos** | Four-agent orchestration cell. Planner → Retriever → Reasoner → Validator. Self-operating. Running unsupervised since deployment. |
+| **APEXiq** | Natural language to SQL pipeline. Agents write queries, validate them, report back. F1 telemetry. Business intelligence. No human in the loop. |
+| **DeepDive** | Video intelligence system. Transcribes, chunks, indexes, retrieves. Bilingual. Runs on free APIs. Hours of footage in seconds. |
 
 ---
 
 ### FIELD ASSIGNMENTS
 
-> *Two confirmed embeds. Both left a mark.*
-
 **Lamatic.ai — Applied AI Engineer** *(Jan – May 2026)*
 
-Subject went in remote and immediately started rewiring things. Built LLM agent pipelines that took customer workflows from human-dependent to fully automated — intake, planning, execution, delivery, all handled without a person in the loop. Wired REST and GraphQL APIs directly into RAG pipelines. Moved fast, shipped faster. By the time the team noticed how much had changed, the old way of doing things was already gone. Workflows that used to require operators stopped requiring them. Subject made himself structurally irreplaceable and then moved on anyway.
+Built LLM agent pipelines for end-to-end workflow automation. Workflows that required operators stopped requiring them. Subject made himself structurally irreplaceable, then moved on.
 
 **Zidio Development — Data Science Intern** *(Aug – Nov 2025)*
 
-Came in, looked at their forecasting setup, and decided to fix it properly. Stacked ARIMA, Prophet, and LSTM into a single ensemble — trend, seasonality, sequence, all covered. Then built the evaluation harness on top: MAE, RMSE, MAPE, R² running automatically on every cycle. The team inherited a system that worked harder than the people who built the one before it. Subject left before anyone thought to ask how it actually worked.
+Stacked ARIMA, Prophet, LSTM into single ensemble. Built automated evaluation pipeline. Team inherited a system that worked harder than the people before it.
+
+---
+
+### ARSENAL — CONFIRMED WEAPONS
+
+> *The following instruments were recovered from subject's workstation.*
+> *All are operational. All are dangerous in the right hands.*
+
+**Primary Weapons — LLM & Agentic Systems**
+
+![LangGraph](https://img.shields.io/badge/LangGraph-37B7C3?style=for-the-badge&logo=langchain&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
+![Anthropic](https://img.shields.io/badge/Anthropic_Claude-8B0000?style=for-the-badge&logo=anthropic&logoColor=white)
+![Groq](https://img.shields.io/badge/Groq-F55036?style=for-the-badge&logo=groq&logoColor=white)
+![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)
+![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
+
+**Field Infrastructure — Backend & Production**
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![Celery](https://img.shields.io/badge/Celery-37B24D?style=for-the-badge&logo=celery&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
+
+**Intelligence Systems — Data & Search**
+
+![ChromaDB](https://img.shields.io/badge/ChromaDB-612FD6?style=for-the-badge&logo=python&logoColor=white)
+![FAISS](https://img.shields.io/badge/FAISS-1F77E6?style=for-the-badge&logo=meta&logoColor=white)
+![DuckDB](https://img.shields.io/badge/DuckDB-FCC624?style=for-the-badge&logo=duckdb&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=openjdk&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
 
 ---
 
 ### KNOWN ASSOCIATES
 
 ```
-  ASSOCIATE          NATURE OF RELATIONSHIP                      STATUS
-  ──────────────────────────────────────────────────────────────────────
-  LangChain          Infiltrated the core repository.            ACTIVE
-                     Issue #31802 — fix merged, still running.
-                     Community did not see it coming.
-  ──────────────────────────────────────────────────────────────────────
-  Metaflow           Embedded in production ML pipeline work.    ACTIVE
-                     Contributed to orchestration layer.
-                     Depth of involvement still being assessed.
-  ──────────────────────────────────────────────────────────────────────
-  AOSSIE             OpenVerifiableLLM — went looking for bugs.  ACTIVE
-                     Found critical ones. Filed the fix.
-                     Security team did not catch what he caught.
-  ──────────────────────────────────────────────────────────────────────
+  LangChain          Infiltrated core repository · Issue #31802
+  Metaflow           Embedded in production ML pipeline work
+  AOSSIE             OpenVerifiableLLM · Found critical bugs
 ```
 
 ---
@@ -69,40 +111,19 @@ Came in, looked at their forecasting setup, and decided to fix it properly. Stac
   ENROLLED     :  September 2023
   TARGET DATE  :  June 2027
   FILE ID      :  1CR23AD019
-  ──────────────────────────────────────────────────────────
-  ANALYST NOTE :  Subject is still in school.
-                  He is building production systems anyway.
-                  Placement window opens August 2026.
-                  Whoever picks him up first wins.
-                  Treat as active threat from that date.
 ```
 
 ---
 
 ### ANALYST REMARKS
 
-*Filed by Field Agent [REDACTED] · 25 May 2005 · Addendum attached*
+*Filed by Field Agent [REDACTED] · 25 May 2005*
 
-> "I have reviewed a lot of files. Most of them are straightforward.
-> This one is not.
+> "Subject does not wait for problems. He finds gaps, builds tools, ships them. His red-teaming runs in production right now. His agent networks operate without human oversight by design.
 >
-> Subject does not wait to be given a problem. He finds the gap,
-> builds the tool, ships it, and moves on before we finish writing
-> the report on the last thing. His red-teaming work is not a side
-> project — it is running in production right now, scoring LLMs on
-> live attack vectors while we are sitting here reading this.
+> We have not been able to determine the full extent of ████████████████████████████████████████████████.
 >
-> His agent networks do not require a human to operate them.
-> That is not an accident. That is the point.
->
-> We have not been able to determine the full extent of
-> ████████████████████████████████████████████████████████.
-> What we do know is that by the time you read this,
-> something new is already deployed.
->
-> Recommend immediate close monitoring.
-> Do not approach without technical backup.
-> Do not underestimate the intern."
+> Do not approach without technical backup. Do not underestimate the intern."
 
 ---
 
