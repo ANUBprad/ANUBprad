@@ -103,14 +103,28 @@ Stacked ARIMA, Prophet, LSTM into single ensemble. Built automated evaluation pi
 
 ---
 
-### BACKGROUND
+### 📊 SURVEILLANCE TELEMETRY
+
+> *Real-time activity tracking. Commits logged. Patterns analyzed. Subject stays active.*
+
+<div align="center">
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=ANUBprad&show_icons=true&theme=dark&hide_border=true&bg_color=0a0e09&title_color=8B0000&icon_color=8B0000&text_color=c9d1d9&hide_rank=false)
+
+![Commit Activity](https://github-readme-streak-stats.herokuapp.com/?user=ANUBprad&theme=dark&hide_border=true&background=0a0e09&ring=8B0000&fire=8B0000&currStreakLabel=8B0000&sideNums=c9d1d9)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ANUBprad&layout=compact&theme=dark&hide_border=true&bg_color=0a0e09&title_color=8B0000&text_color=c9d1d9)
+
+</div>
 
 ```
-  INSTITUTION  :  CMR Institute of Technology, Bengaluru
-  PROGRAM      :  B.E. Artificial Intelligence & Data Science
-  ENROLLED     :  September 2023
-  TARGET DATE  :  June 2027
-  FILE ID      :  1CR23AD019
+  ┌──────────────────────────────────────────────────────┐
+  │  ACTIVITY LEVEL        :  EXTREMELY HIGH             │
+  │  COMMIT FREQUENCY      :  DAILY  ·  MULTIPLE         │
+  │  DEPLOYMENT VELOCITY   :  RAPID  ·  CONSISTENT       │
+  │  LAST KNOWN ACTIVITY   :  TODAY                      │
+  │  OPERATIONAL STATUS    :  ACTIVE  ·  BUILDING        │
+  └──────────────────────────────────────────────────────┘
 ```
 
 ---
