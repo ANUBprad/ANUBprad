@@ -64,63 +64,42 @@ Stacked ARIMA, Prophet, LSTM into single ensemble. Built automated evaluation pi
 **Primary Weapons — LLM & Agentic Systems**
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=python&theme=dark" alt="Python" />
-  <img src="https://skillicons.dev/icons?i=langchain&theme=dark" alt="LangChain" />
-  <img src="https://skillicons.dev/icons?i=openai&theme=dark" alt="OpenAI" />
+  <img src="https://skillicons.dev/icons?i=python,javascript,typescript,java,cpp&perline=5&theme=dark" />
 </div>
-
-**LLM Models & Frameworks**
-- LangGraph (multi-agent orchestration)
-- LangChain (agent pipelines)
-- Claude API (Anthropic)
-- Groq (inference)
-- Ollama (local LLMs)
-- Llama 3 (70B reasoning)
-- HuggingFace (model hub)
-- Sentence Transformers (embeddings)
-
-**Field Infrastructure — Backend & Production**
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=fastapi,postgres,redis,docker,github,git&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=fastapi,django,flask,nodejs,react&perline=5&theme=dark" />
 </div>
 
-- FastAPI (async web framework)
-- PostgreSQL (data persistence)
-- Redis (task queues, caching)
-- Celery (distributed workers)
-- Docker (containerization)
-- GitHub Actions (CI/CD)
-- SQLAlchemy (ORM)
-- Alembic (migrations)
-
-**Intelligence Systems — Data & Search**
+**Backend & Infrastructure**
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=react,typescript,java,cpp,sql&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=postgres,mysql,redis,mongodb,sqlite&perline=5&theme=dark" />
 </div>
-
-- ChromaDB (vector database)
-- FAISS (similarity search)
-- DuckDB (OLAP queries)
-- Whisper (transcription)
-- ARIMA + Prophet + LSTM (forecasting)
-- XGBoost (gradient boosting)
-- SHAP (model explainability)
-- Streamlit (frontend)
-
-**Languages**
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=python,typescript,javascript,java,cpp,sql&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=docker,kubernetes,github,gitlab,git&perline=5&theme=dark" />
 </div>
 
-- Python (primary)
-- TypeScript / JavaScript (full-stack)
-- Java (systems)
-- C++ (performance)
-- SQL (data)
-- Bash (scripting)
+**Data & ML Systems**
+
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=tensorflow,pytorch,scikit,pandas,numpy&perline=5&theme=dark" />
+</div>
+
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=sql,bash,linux,aws,gcp&perline=5&theme=dark" />
+</div>
+
+**DevOps & Deployment**
+
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=jenkins,grafana,prometheus,elasticsearch,kafka&perline=5&theme=dark" />
+</div>
+
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=vim,vscode,git,github,gitlab&perline=5&theme=dark" />
+</div>
 
 ---
 
