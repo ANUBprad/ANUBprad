@@ -61,44 +61,40 @@ Stacked ARIMA, Prophet, LSTM into single ensemble. Built automated evaluation pi
 > *The following instruments were recovered from subject's workstation.*
 > *All are operational. All are dangerous in the right hands.*
 
-**Primary Weapons — LLM & Agentic Systems**
+**Languages & Frameworks**
 
 <div align="center">
   <img src="https://skillicons.dev/icons?i=python,javascript,typescript,java,cpp&perline=5&theme=dark" />
 </div>
 
+**Backend & Web**
+
 <div align="center">
   <img src="https://skillicons.dev/icons?i=fastapi,django,flask,nodejs,react&perline=5&theme=dark" />
 </div>
 
-**Backend & Infrastructure**
+**Databases & Caching**
 
 <div align="center">
   <img src="https://skillicons.dev/icons?i=postgres,mysql,redis,mongodb,sqlite&perline=5&theme=dark" />
 </div>
 
+**DevOps & Infrastructure**
+
 <div align="center">
   <img src="https://skillicons.dev/icons?i=docker,kubernetes,github,gitlab,git&perline=5&theme=dark" />
 </div>
 
-**Data & ML Systems**
+**Cloud & Systems**
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=tensorflow,pytorch,scikit,pandas,numpy&perline=5&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=aws,gcp,linux,bash,vim&perline=5&theme=dark" />
 </div>
 
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=sql,bash,linux,aws,gcp&perline=5&theme=dark" />
-</div>
-
-**DevOps & Deployment**
+**Data Science & ML**
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=jenkins,grafana,prometheus,elasticsearch,kafka&perline=5&theme=dark" />
-</div>
-
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=vim,vscode,git,github,gitlab&perline=5&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=python,sql,git,linux,bash&perline=5&theme=dark" />
 </div>
 
 ---
@@ -117,13 +113,15 @@ Stacked ARIMA, Prophet, LSTM into single ensemble. Built automated evaluation pi
 
 > *Real-time activity tracking. Commits logged. Patterns analyzed. Subject stays active.*
 
+```
+  TOTAL CONTRIBUTIONS  :  229  |  CURRENT STREAK  :  4 days  |  LONGEST STREAK  :  12 days
+  ────────────────────────────────────────────────────────────────────────────────────
+  LAST ACTIVITY        :  TODAY  |  OPERATIONAL STATUS  :  ACTIVE  |  THREAT LEVEL  :  HIGH
+```
+
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=ANUBprad&show_icons=true&theme=dark&hide_border=true&bg_color=0a0e09&title_color=8B0000&icon_color=8B0000&text_color=c9d1d9&hide_rank=false)
-
-![Commit Activity](https://github-readme-streak-stats.herokuapp.com/?user=ANUBprad&theme=dark&hide_border=true&background=0a0e09&ring=8B0000&fire=8B0000&currStreakLabel=8B0000&sideNums=c9d1d9)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ANUBprad&layout=compact&theme=dark&hide_border=true&bg_color=0a0e09&title_color=8B0000&text_color=c9d1d9&langs_count=10)
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=ANUBprad&theme=dark&hide_border=true&background=0a0e09&ring=8B0000&fire=8B0000&currStreakLabel=8B0000)](https://github.com/ANUBprad)
 
 </div>
 
