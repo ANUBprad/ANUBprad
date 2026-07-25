@@ -63,33 +63,64 @@ Stacked ARIMA, Prophet, LSTM into single ensemble. Built automated evaluation pi
 
 **Primary Weapons — LLM & Agentic Systems**
 
-![LangGraph](https://img.shields.io/badge/LangGraph-37B7C3?style=for-the-badge&logo=langchain&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
-![Anthropic](https://img.shields.io/badge/Anthropic_Claude-8B0000?style=for-the-badge&logo=anthropic&logoColor=white)
-![Groq](https://img.shields.io/badge/Groq-F55036?style=for-the-badge&logo=groq&logoColor=white)
-![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)
-![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=python&theme=dark" alt="Python" />
+  <img src="https://skillicons.dev/icons?i=langchain&theme=dark" alt="LangChain" />
+  <img src="https://skillicons.dev/icons?i=openai&theme=dark" alt="OpenAI" />
+</div>
+
+**LLM Models & Frameworks**
+- LangGraph (multi-agent orchestration)
+- LangChain (agent pipelines)
+- Claude API (Anthropic)
+- Groq (inference)
+- Ollama (local LLMs)
+- Llama 3 (70B reasoning)
+- HuggingFace (model hub)
+- Sentence Transformers (embeddings)
 
 **Field Infrastructure — Backend & Production**
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![Celery](https://img.shields.io/badge/Celery-37B24D?style=for-the-badge&logo=celery&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=fastapi,postgres,redis,docker,github,git&theme=dark" />
+</div>
+
+- FastAPI (async web framework)
+- PostgreSQL (data persistence)
+- Redis (task queues, caching)
+- Celery (distributed workers)
+- Docker (containerization)
+- GitHub Actions (CI/CD)
+- SQLAlchemy (ORM)
+- Alembic (migrations)
 
 **Intelligence Systems — Data & Search**
 
-![ChromaDB](https://img.shields.io/badge/ChromaDB-612FD6?style=for-the-badge&logo=python&logoColor=white)
-![FAISS](https://img.shields.io/badge/FAISS-1F77E6?style=for-the-badge&logo=meta&logoColor=white)
-![DuckDB](https://img.shields.io/badge/DuckDB-FCC624?style=for-the-badge&logo=duckdb&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=openjdk&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=react,typescript,java,cpp,sql&theme=dark" />
+</div>
+
+- ChromaDB (vector database)
+- FAISS (similarity search)
+- DuckDB (OLAP queries)
+- Whisper (transcription)
+- ARIMA + Prophet + LSTM (forecasting)
+- XGBoost (gradient boosting)
+- SHAP (model explainability)
+- Streamlit (frontend)
+
+**Languages**
+
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=python,typescript,javascript,java,cpp,sql&theme=dark" />
+</div>
+
+- Python (primary)
+- TypeScript / JavaScript (full-stack)
+- Java (systems)
+- C++ (performance)
+- SQL (data)
+- Bash (scripting)
 
 ---
 
@@ -113,7 +144,7 @@ Stacked ARIMA, Prophet, LSTM into single ensemble. Built automated evaluation pi
 
 ![Commit Activity](https://github-readme-streak-stats.herokuapp.com/?user=ANUBprad&theme=dark&hide_border=true&background=0a0e09&ring=8B0000&fire=8B0000&currStreakLabel=8B0000&sideNums=c9d1d9)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ANUBprad&layout=compact&theme=dark&hide_border=true&bg_color=0a0e09&title_color=8B0000&text_color=c9d1d9)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ANUBprad&layout=compact&theme=dark&hide_border=true&bg_color=0a0e09&title_color=8B0000&text_color=c9d1d9&langs_count=10)
 
 </div>
 
@@ -125,6 +156,18 @@ Stacked ARIMA, Prophet, LSTM into single ensemble. Built automated evaluation pi
   │  LAST KNOWN ACTIVITY   :  TODAY                      │
   │  OPERATIONAL STATUS    :  ACTIVE  ·  BUILDING        │
   └──────────────────────────────────────────────────────┘
+```
+
+---
+
+### BACKGROUND
+
+```
+  INSTITUTION  :  CMR Institute of Technology, Bengaluru
+  PROGRAM      :  B.E. Artificial Intelligence & Data Science
+  ENROLLED     :  September 2023
+  TARGET DATE  :  June 2027
+  FILE ID      :  1CR23AD019
 ```
 
 ---
