@@ -168,7 +168,7 @@ Stacked ARIMA, Prophet, LSTM into single ensemble. Built automated evaluation pi
 [![Email](https://img.shields.io/badge/Email-pradhananubhab25@gmail.com-8B0000?style=flat-square&logo=gmail&logoColor=white&labelColor=1a1a1a)](mailto:pradhananubhab25@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-anubhabpradhan-8B0000?style=flat-square&logo=linkedin&logoColor=white&labelColor=1a1a1a)](https://www.linkedin.com/in/anubhabpradhan)
 [![GitHub](https://img.shields.io/badge/GitHub-ANUBprad-8B0000?style=flat-square&logo=github&logoColor=white&labelColor=1a1a1a)](https://github.com/ANUBprad)
-[![LeetCode](https://img.shields.io/badge/LeetCode-ANUBprad-8B0000?style=flat-square&logo=leetcode&logoColor=white&labelColor=1a1a1a)](https://leetcode.com/u/Anubhab25/)
+[![LeetCode](https://img.shields.io/badge/LeetCode-ANUBprad-8B0000?style=flat-square&logo=leetcode&logoColor=white&labelColor=1a1a1a)](https://leetcode.com/u/Anubhab25)
 
 </div>
 
