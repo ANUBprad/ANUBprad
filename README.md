@@ -90,7 +90,6 @@ Co-authored "Benchmarking Instruction-Tuned Small Language Models on Extractive 
 
 **I trace agentic failures.** I don't just build agents—I trace execution patterns, identify hallucinations and routing errors, and fix them systematically with A/B testing.
 
----
 
 ## Get in Touch
 
