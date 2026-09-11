@@ -1,143 +1,103 @@
-# Anubhab Pradhan
+# Hey, I'm Anubhab 👋
 
-Building production LLM systems and evaluation infrastructure. Final-year AI/Data Science student at CMR Institute of Technology. Currently interning at Hasprana Health Care Solutions on clinical ML pipelines.
+I build **production LLM systems** and **evaluation infrastructure**. Currently an Applied AI Engineer at **Hasprana Health Care Solutions**, working on clinical-grade ML pipelines. Final-year student at CMR Institute of Technology.
 
-**What I ship:** Full-stack systems (backend + frontend + DevOps). Microservices architectures. Statistical evaluation frameworks. Code audits at scale. Production ML on clinical-grade validation pipelines.
+I'm focused on things that actually work in production: microservices that scale, RAG systems with measurable retrieval quality, LLM evaluation frameworks that catch real problems, and ML models that pass clinical validation.
 
----
-
-## Status
-
-**Education:** B.E. Artificial Intelligence & Data Science | CMR Institute of Technology, Bengaluru  
-**CGPA:** 8.1 | **Graduation:** June 2027 | **Student ID:** 1CR23AD019
-
-**Placement Status:** Actively seeking full-time AI/ML engineering roles, starting June 2027. Open to startups, FAANG, and research positions emphasizing system design, evaluation rigor, and production optimization.
+**Currently looking for:** Full-time AI/ML engineering roles starting June 2027. Interested in startups, FAANG, and research orgs where the focus is system design, evaluation rigor, and shipping things that matter.
 
 ---
 
-## Current Work
+## What I've Built
 
-**Hasprana Health Care Solutions** — Applied AI Engineer  
-*Aug 2026 – Present*
-
-- Retrained U-Net segmentation model on clinical ophthalmic data: improved mean IoU from 0.888 to 0.970 (+9.2%), reduced limbus localization error by ~70%
-- Conducted technical audit of confidence-scoring system; discovered geometric confidence was statistically superior to learned confidence via correlation analysis
-- Productionized vision pipeline with PyTorch, ONNX, INT8 quantization; validated on 12 clinical images and 251 automated test cases achieving clinical-grade reliability
-
-**Lamatic.ai** — Applied AI Engineer  
-*Jan – May 2026*
-
-- Traced agentic execution patterns in user workflows; identified hallucinated plans, tool-routing errors, and stuck reasoning loops as primary failure modes
-- Designed and validated remediation strategies across prompt engineering, routing logic, and planning algorithms using A/B testing
-- Built multi-step agent pipelines integrating tool-use, REST/GraphQL API orchestration, and multi-hop reasoning
+Here's what's in my GitHub:
 
 ---
 
-## Projects
+### 🏥 Clinical ML at Hasprana (Current)
+Retraining medical vision models and shipping them to edge devices. The fun part: getting a U-Net from 88.8% to 97% IoU on real clinical data. The hard part: making sure it actually works on unseen patient images.
 
-### Kairos — RAG Evaluation & Observability Workbench
-Full-stack RAG experimentation platform with hybrid retrieval, multi-hop reasoning, and statistical evaluation.
+- **U-Net Retrain:** 0.888 → 0.970 IoU (+9.2%), ~70% error reduction on limbus localization
+- **Confidence Scoring Audit:** Proved geometric confidence beats learned softmax confidence (statistical correlation analysis)
+- **Production Inference:** ONNX + INT8 quantization, 75% model size reduction, clinical validation on 251 test cases
+- **Tech Stack:** PyTorch, ONNX, OpenCV, clinical validation pipelines
 
-- Engineered microservices architecture: Go gateway + Python services + Next.js portal
-- Implemented 12+ IR metrics with confidence intervals and reproducible experiment tracking
-- Built end-to-end observability pipeline capturing retrieval traces, chunk selections, scoring decisions
-- **Tech:** Go, Python, TypeScript/Next.js, gRPC, PostgreSQL, ChromaDB, Prometheus, Docker, GitHub Actions
+### 🤖 Agentic Systems at Lamatic (Jan–May 2026)
+Built agent pipelines for workflow automation. Traced why agents fail in production. Fixed them.
 
-### MukhdaX — Face Image Provenance & Blockchain Verification
-End-to-end verification pipeline: face detection → ArcFace representation → reverse-image discovery → deterministic fingerprinting → on-chain Ethereum anchoring.
-
-- Integrated SerpApi for genuine Google Lens visual search (no hardcoded results)
-- Implemented on-chain read-back verification without private keys
-- Enforced exactly-one-face constraint; extracted metadata from all discovered public sources
-- **Tech:** Python, FastAPI, InsightFace, RetinaFace, ArcFace, Web3.py, Solidity, Ethereum Sepolia
-
-### APEXiq — F1 Strategy & BI Pipeline
-Natural language to SQL pipeline for F1 telemetry and business intelligence. Agents write queries, validate them, report results. No human in the loop.
-
-- End-to-end NL-to-SQL orchestration with validation layers
-- Automated query generation and error recovery
-- Deployed on real F1 telemetry datasets
-- **Tech:** Python, LangChain, PostgreSQL, FastAPI
-
-### LocalBench — Local LLM Benchmarking Platform
-Privacy-first, offline-first benchmarking for open-source LLMs via Ollama. Hardware-aware model selection enabling cost-performance tradeoff decisions.
-
-- Implemented hardware-aware model selection: accuracy threshold + memory/latency budget constraints
-- Hardened structured generation with Pydantic validation and bounded retry logic
-- Built CLI interface (Typer + Rich); no cloud API dependencies
-- **Tech:** Python, PyTorch, Hugging Face, Ollama, Pydantic, Typer, JSONL
-
-### RedOps — Autonomous LLM Red-Teaming & Evaluation Platform
-Production-grade LLM evaluation framework benchmarking safety, groundedness, relevance with reproducible evaluation runs.
-
-- Engineered durable evaluation workflows with provider-independent execution and semantic LLM judging
-- Built full observability: metric confidence scores, reasoning traces, token usage, cost breakdown
-- Designed evaluation metrics: safety scoring, hallucination detection, agent-based attack generation
-- **Tech:** Python, FastAPI, PostgreSQL, Docker, Redis Streams, TypeScript
+- **Failure Analysis:** Mapped agentic execution patterns → identified hallucinations, routing errors, stuck reasoning loops
+- **Remediation:** A/B tested prompt engineering, routing logic, planning algorithms; deployed winners to production
+- **Infrastructure:** Multi-step agents with tool-use + REST/GraphQL orchestration + multi-hop reasoning
+- **Tech Stack:** LangChain, LangGraph, FastAPI, observability tooling
 
 ---
 
-## Competitions & Recognition
+## My Projects
 
-- **Smart India Hackathon 2024** — National Finalist
-- **Gen AI Exchange 2025** — National Finalist
-- **EY Tecathon 6.0** — Participant & Technical Lead
-- **Hacker House Goa 2026** — Preparing focus on LangGraph and agentic systems
+**[Kairos](https://github.com/ANUBprad/Kairos)** — RAG evaluation workbench that actually tells you what's working  
+Full-stack platform for RAG experimentation. 12+ IR metrics, confidence intervals, observability pipeline. Built with Go + Python + Next.js microservices. The goal: stop guessing at retrieval quality and measure it properly.
+
+**[MukhdaX](https://github.com/ANUBprad/MukhdaX)** — Face provenance & blockchain verification  
+End-to-end pipeline: detect faces → generate embeddings → reverse-image search → deterministic fingerprinting → anchor on Ethereum. Integrated real Google Lens (no hardcoded results). Validates image authenticity on-chain.
+
+**[APEXiq](https://github.com/ANUBprad/APEXiq)** — Natural language to SQL on F1 telemetry  
+Agents write queries, validate them, report results. No human oversight. Built for real F1 strategy data.
+
+**[LocalBench](https://github.com/ANUBprad/LocalBench)** — Offline LLM benchmarking  
+Privacy-first model selection. Hardware-aware constraints (accuracy threshold + memory/latency budget). Runs entirely on your machine via Ollama. No cloud APIs. Built because sometimes you need to benchmark without shipping data anywhere.
+
+**[RedOps](https://github.com/ANUBprad/RedOps)** — LLM red-teaming & evaluation  
+Production framework for benchmarking LLM safety, groundedness, relevance. Semantic judging, forensic evidence tracking, full observability. Built to catch real failure modes.
 
 ---
 
-## Publications & Open Source
+## Research & Open Source
 
-**Research**  
-Co-authored "Benchmarking Instruction-Tuned Small Language Models on Extractive QA" — *ICAC2N 2026* (published). Systematic evaluation of Phi-3-mini, Mistral-7B, and Gemma-2 on identical extractive QA datasets under controlled conditions. Quantified accuracy-efficiency tradeoffs across model sizes; demonstrated metric choice determines model ranking. Findings inform real-world model selection decisions.
+**Published Research**  
+Co-authored "Benchmarking Instruction-Tuned Small Language Models on Extractive QA" at **ICAC2N 2026**. Compared Phi-3-mini, Mistral-7B, and Gemma-2 on identical QA datasets. Found that metric choice literally determines which model "wins" — important for real-world deployments where you need to pick the right tradeoff.
 
-**Open Source**
-- LangChain: PR #31802 (merged) — Fixed missing else branch in evaluate in project() method
-- LangChain: PR #38465 (submitted) — KeyError fix in file tool callback for rename operations
-- Metaflow: Workflow optimization contributions
+**Open Source Contributions**
+- LangChain: PR #31802 (merged), PR #38465 (submitted) — bug fixes in eval and file tool callbacks
+- Metaflow: Distributed ML pipeline optimization
 - AOSSIE/OpenVerifiableLLM: LLM verification framework improvements
 
----
-
-## Technical Stack
-
-**Languages:** Python, TypeScript/JavaScript, SQL, Go, Java, C/C++
-
-**LLM & Agentic Systems:** Claude API, Groq, Ollama, LangChain, LangGraph, multi-agent orchestration, tool-use patterns, prompt engineering
-
-**Machine Learning:** PyTorch, scikit-learn, XGBoost, SHAP, model evaluation, statistical testing, computer vision (OpenCV, InsightFace, RetinaFace, ArcFace)
-
-**Production ML:** ONNX inference, INT8/FP16 quantization, model versioning, A/B testing, inference optimization
-
-**Data & Databases:** PostgreSQL, ChromaDB, vector search, Redis, Celery, MongoDB
-
-**Full-Stack & DevOps:** FastAPI, React/Next.js, Docker, Kubernetes, GitHub Actions, CI/CD
-
-**Specializations:** Code audit & architecture analysis, system design, reliability engineering, evaluation methodology, agentic systems
-
-**Team Leadership:** ML Lead, Data Voyagers (university ML club) — coordinated technical strategy, mentored teammates on model selection and data preprocessing.
-
-**Certifications:** Data Science Job Simulation (Forage), Introduction to Machine Learning (NPTEL-SWAYAM), Full Stack Development (Infosys Springboard)
+**Competitions**
+- Smart India Hackathon 2024 — National Finalist
+- Gen AI Exchange 2025 — National Finalist  
+- EY Tecathon 6.0 — Technical Lead
+- Hacker House Goa 2026 — Prepping on LangGraph + agentic systems
 
 ---
 
-## Key Differentiators
+## What I Actually Know
 
-**System Design.** Full-stack ownership of multi-service architectures. Kairos spans Go gateway + Python services + TypeScript frontend with production-grade infrastructure.
-
-**Evaluation Rigor.** Statistical evaluation methodology, reproducible experiments, systematic metric design. 12+ IR metrics with confidence intervals; comprehensive LLM safety evaluations.
-
-**Production ML.** End-to-end ownership from research prototype to deployment. Clinical validation on real medical data; inference optimization reducing model size by 75% while maintaining accuracy.
-
-**Code Audit & Architecture.** 62K+ LOC analysis, god node detection, coupling analysis, complexity assessment, architectural debt assessment, refactoring roadmapping. Identified critical failure points and validated remediation strategies.
-
-**Agentic AI.** Multi-agent orchestration, tool integration, reasoning chains, failure analysis and remediation at scale.
+**Core:** Python, TypeScript/JavaScript, SQL, Go  
+**LLM Stuff:** Claude API, Groq, Ollama, LangChain, LangGraph, agentic systems, tool-use patterns  
+**ML:** PyTorch, scikit-learn, XGBoost, SHAP, computer vision (OpenCV, InsightFace, RetinaFace, ArcFace)  
+**Production:** ONNX, INT8/FP16 quantization, A/B testing, inference optimization, model versioning  
+**Backend:** FastAPI, Flask, gRPC, PostgreSQL, ChromaDB, vector search, Redis  
+**DevOps:** Docker, Kubernetes, GitHub Actions, CI/CD, observability (Prometheus, OpenTelemetry)
 
 ---
 
-## Connect
+## What I Do Differently
+
+**I audit large codebases.** 62K+ LOC analysis, god node detection, coupling analysis, architectural debt assessment. I find what's broken before it breaks in production.
+
+**I build for reliability.** Kairos has 12+ IR metrics with confidence intervals. RedOps has semantic judging, forensic evidence, full observability. Not just "does it work"—I measure *how well* and *why it fails*.
+
+**I ship clinical-grade systems.** My ML models get validated on real patient data. My inference pipelines get quantized, tested, and benchmarked. The code actually runs in production without exploding.
+
+**I trace agentic failures.** I don't just build agents—I trace execution patterns, identify hallucinations and routing errors, and fix them systematically with A/B testing.
+
+---
+
+## Get in Touch
+
+Want to talk about LLM systems, production ML, evaluation rigor, or anything in between?
 
 📧 **Email:** [pradhananubhab25@gmail.com](mailto:pradhananubhab25@gmail.com)  
-🔗 **GitHub:** [github.com/ANUBprad](https://github.com/ANUBprad)  
 💼 **LinkedIn:** [linkedin.com/in/anubhabpradhan](https://www.linkedin.com/in/anubhabpradhan)  
 💻 **LeetCode:** [leetcode.com/u/Anubhab25](https://leetcode.com/u/Anubhab25)
+
+---
