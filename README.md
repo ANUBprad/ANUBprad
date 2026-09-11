@@ -1,181 +1,143 @@
-<div align="center">
-<img src="dossier.png" alt="Anubhab Pradhan — DEA Dossier FILE NO. 2005-ANB-019" width="100%"/>
-</div>
+# Anubhab Pradhan
 
-```
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  SUPPLEMENTARY FIELD NOTES  ·  FILE NO. 2005-ANB-019  ·  PAGE 2
-  DEA SOUTHWEST DIVISION — BENGALURU ATTACHÉ OFFICE
-  ANALYST COPY  ·  DO NOT DUPLICATE  ·  DESTROY AFTER REVIEW
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-```
+Building production LLM systems and evaluation infrastructure. Final-year AI/Data Science student at CMR Institute of Technology. Currently interning at Hasprana Health Care Solutions on clinical ML pipelines.
+
+**What I ship:** Full-stack systems (backend + frontend + DevOps). Microservices architectures. Statistical evaluation frameworks. Code audits at scale. Production ML on clinical-grade validation pipelines.
 
 ---
 
-### CURRENT STATUS
+## Status
 
-```
-  ┌─────────────────────────────────────────────────────────────────┐
-  │  SUBJECT         :  Anubhab Pradhan  ·  @ANUBprad              │
-  │  LOCATION        :  Bengaluru, Karnataka, IN                    │
-  │  CURRENT COVER   :  B.E. student  ·  CMRIT  ·  Final year      │
-  │  REAL OCCUPATION :  Building production LLM systems             │
-  │                                                                 │
-  │  🔴  ACTIVELY BUILDING   —  New operation in progress          │
-  │  🟡  PLACEMENT WINDOW    —  Opens August 2026                  │
-  │  🟢  OPEN SOURCE         —  PRs being filed as you read this   │
-  │                                                                 │
-  │  AVAILABILITY    :  Full-time from June 2027                   │
-  │  OPEN TO         :  AI-native startups  ·  FAANG  ·  Research  │
-  │  WILL NOT DO     :  Tutorial projects  ·  Demo-only roles      │
-  └─────────────────────────────────────────────────────────────────┘
-```
+**Education:** B.E. Artificial Intelligence & Data Science | CMR Institute of Technology, Bengaluru  
+**CGPA:** 8.1 | **Graduation:** June 2027 | **Student ID:** 1CR23AD019
+
+**Placement Status:** Actively seeking full-time AI/ML engineering roles, starting June 2027. Open to startups, FAANG, and research positions emphasizing system design, evaluation rigor, and production optimization.
 
 ---
 
-### ⚠ KNOWN OPERATIONS
+## Current Work
 
-| OPERATION | CLASSIFIED BRIEF |
-|-----------|-----------------|
-| **RedOps** | Autonomous LLM red-teaming network. Six attack vectors. 100+ live payloads. Scores itself. Nobody pulls the trigger twice. |
-| **Kairos** | Four-agent orchestration cell. Planner → Retriever → Reasoner → Validator. Self-operating. Running unsupervised since deployment. |
-| **APEXiq** | Natural language to SQL pipeline. Agents write queries, validate them, report back. F1 telemetry. Business intelligence. No human in the loop. |
-| **DeepDive** | Video intelligence system. Transcribes, chunks, indexes, retrieves. Bilingual. Runs on free APIs. Hours of footage in seconds. |
+**Hasprana Health Care Solutions** — Applied AI Engineer  
+*Aug 2026 – Present*
 
----
+- Retrained U-Net segmentation model on clinical ophthalmic data: improved mean IoU from 0.888 to 0.970 (+9.2%), reduced limbus localization error by ~70%
+- Conducted technical audit of confidence-scoring system; discovered geometric confidence was statistically superior to learned confidence via correlation analysis
+- Productionized vision pipeline with PyTorch, ONNX, INT8 quantization; validated on 12 clinical images and 251 automated test cases achieving clinical-grade reliability
 
-### FIELD ASSIGNMENTS
+**Lamatic.ai** — Applied AI Engineer  
+*Jan – May 2026*
 
-**Lamatic.ai — Applied AI Engineer** *(Jan – May 2026)*
-
-Built LLM agent pipelines for end-to-end workflow automation. Workflows that required operators stopped requiring them. Subject made himself structurally irreplaceable, then moved on.
-
-**Zidio Development — Data Science Intern** *(Aug – Nov 2025)*
-
-Stacked ARIMA, Prophet, LSTM into single ensemble. Built automated evaluation pipeline. Team inherited a system that worked harder than the people before it.
+- Traced agentic execution patterns in user workflows; identified hallucinated plans, tool-routing errors, and stuck reasoning loops as primary failure modes
+- Designed and validated remediation strategies across prompt engineering, routing logic, and planning algorithms using A/B testing
+- Built multi-step agent pipelines integrating tool-use, REST/GraphQL API orchestration, and multi-hop reasoning
 
 ---
 
-### ARSENAL — CONFIRMED WEAPONS
+## Projects
 
-> *The following instruments were recovered from subject's workstation.*
-> *All are operational. All are dangerous in the right hands.*
+### Kairos — RAG Evaluation & Observability Workbench
+Full-stack RAG experimentation platform with hybrid retrieval, multi-hop reasoning, and statistical evaluation.
 
-**Languages & Frameworks**
+- Engineered microservices architecture: Go gateway + Python services + Next.js portal
+- Implemented 12+ IR metrics with confidence intervals and reproducible experiment tracking
+- Built end-to-end observability pipeline capturing retrieval traces, chunk selections, scoring decisions
+- **Tech:** Go, Python, TypeScript/Next.js, gRPC, PostgreSQL, ChromaDB, Prometheus, Docker, GitHub Actions
 
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=python,javascript,typescript,java,cpp&perline=5&theme=dark" />
-</div>
+### MukhdaX — Face Image Provenance & Blockchain Verification
+End-to-end verification pipeline: face detection → ArcFace representation → reverse-image discovery → deterministic fingerprinting → on-chain Ethereum anchoring.
 
-**Backend & Web**
+- Integrated SerpApi for genuine Google Lens visual search (no hardcoded results)
+- Implemented on-chain read-back verification without private keys
+- Enforced exactly-one-face constraint; extracted metadata from all discovered public sources
+- **Tech:** Python, FastAPI, InsightFace, RetinaFace, ArcFace, Web3.py, Solidity, Ethereum Sepolia
 
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=fastapi,django,flask,nodejs,react&perline=5&theme=dark" />
-</div>
+### APEXiq — F1 Strategy & BI Pipeline
+Natural language to SQL pipeline for F1 telemetry and business intelligence. Agents write queries, validate them, report results. No human in the loop.
 
-**Databases & Caching**
+- End-to-end NL-to-SQL orchestration with validation layers
+- Automated query generation and error recovery
+- Deployed on real F1 telemetry datasets
+- **Tech:** Python, LangChain, PostgreSQL, FastAPI
 
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=postgres,mysql,redis,mongodb,sqlite&perline=5&theme=dark" />
-</div>
+### LocalBench — Local LLM Benchmarking Platform
+Privacy-first, offline-first benchmarking for open-source LLMs via Ollama. Hardware-aware model selection enabling cost-performance tradeoff decisions.
 
-**DevOps & Infrastructure**
+- Implemented hardware-aware model selection: accuracy threshold + memory/latency budget constraints
+- Hardened structured generation with Pydantic validation and bounded retry logic
+- Built CLI interface (Typer + Rich); no cloud API dependencies
+- **Tech:** Python, PyTorch, Hugging Face, Ollama, Pydantic, Typer, JSONL
 
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=docker,kubernetes,github,gitlab,git&perline=5&theme=dark" />
-</div>
+### RedOps — Autonomous LLM Red-Teaming & Evaluation Platform
+Production-grade LLM evaluation framework benchmarking safety, groundedness, relevance with reproducible evaluation runs.
 
-**Cloud & Systems**
-
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=aws,gcp,linux,bash,vim&perline=5&theme=dark" />
-</div>
-
-**Data Science & ML**
-
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=python,sql,git,linux,bash&perline=5&theme=dark" />
-</div>
-
----
-
-### KNOWN ASSOCIATES
-
-```
-  LangChain          Infiltrated core repository · Issue #31802
-  Metaflow           Embedded in production ML pipeline work
-  AOSSIE             OpenVerifiableLLM · Found critical bugs
-```
+- Engineered durable evaluation workflows with provider-independent execution and semantic LLM judging
+- Built full observability: metric confidence scores, reasoning traces, token usage, cost breakdown
+- Designed evaluation metrics: safety scoring, hallucination detection, agent-based attack generation
+- **Tech:** Python, FastAPI, PostgreSQL, Docker, Redis Streams, TypeScript
 
 ---
 
-### 📊 SURVEILLANCE TELEMETRY
+## Competitions & Recognition
 
-> *Real-time activity tracking. Commits logged. Patterns analyzed. Subject stays active.*
-
-```
-  TOTAL CONTRIBUTIONS  :  229  |  CURRENT STREAK  :  4 days  |  LONGEST STREAK  :  12 days
-  ────────────────────────────────────────────────────────────────────────────────────
-  LAST ACTIVITY        :  TODAY  |  OPERATIONAL STATUS  :  ACTIVE  |  THREAT LEVEL  :  HIGH
-```
-
-<div align="center">
-
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=ANUBprad&theme=dark&hide_border=true&background=0a0e09&ring=8B0000&fire=8B0000&currStreakLabel=8B0000)](https://github.com/ANUBprad)
-
-</div>
-
-```
-  ┌──────────────────────────────────────────────────────┐
-  │  ACTIVITY LEVEL        :  EXTREMELY HIGH             │
-  │  COMMIT FREQUENCY      :  DAILY  ·  MULTIPLE         │
-  │  DEPLOYMENT VELOCITY   :  RAPID  ·  CONSISTENT       │
-  │  LAST KNOWN ACTIVITY   :  TODAY                      │
-  │  OPERATIONAL STATUS    :  ACTIVE  ·  BUILDING        │
-  └──────────────────────────────────────────────────────┘
-```
+- **Smart India Hackathon 2024** — National Finalist
+- **Gen AI Exchange 2025** — National Finalist
+- **EY Tecathon 6.0** — Participant & Technical Lead
+- **Hacker House Goa 2026** — Preparing focus on LangGraph and agentic systems
 
 ---
 
-### BACKGROUND
+## Publications & Open Source
 
-```
-  INSTITUTION  :  CMR Institute of Technology, Bengaluru
-  PROGRAM      :  B.E. Artificial Intelligence & Data Science
-  ENROLLED     :  September 2023
-  TARGET DATE  :  June 2027
-  FILE ID      :  1CR23AD019
-```
+**Research**  
+Co-authored "Benchmarking Instruction-Tuned Small Language Models on Extractive QA" — *ICAC2N 2026* (published). Systematic evaluation of Phi-3-mini, Mistral-7B, and Gemma-2 on identical extractive QA datasets under controlled conditions. Quantified accuracy-efficiency tradeoffs across model sizes; demonstrated metric choice determines model ranking. Findings inform real-world model selection decisions.
 
----
-
-### ANALYST REMARKS
-
-*Filed by Field Agent [REDACTED] · 25 May 2005*
-
-> "Subject does not wait for problems. He finds gaps, builds tools, ships them. His red-teaming runs in production right now. His agent networks operate without human oversight by design.
->
-> We have not been able to determine the full extent of ████████████████████████████████████████████████.
->
-> Do not approach without technical backup. Do not underestimate the intern."
+**Open Source**
+- LangChain: PR #31802 (merged) — Fixed missing else branch in evaluate in project() method
+- LangChain: PR #38465 (submitted) — KeyError fix in file tool callback for rename operations
+- Metaflow: Workflow optimization contributions
+- AOSSIE/OpenVerifiableLLM: LLM verification framework improvements
 
 ---
 
-### REACH THE SUSPECT
+## Technical Stack
 
-<div align="center">
+**Languages:** Python, TypeScript/JavaScript, SQL, Go, Java, C/C++
 
-[![Email](https://img.shields.io/badge/Email-pradhananubhab25@gmail.com-8B0000?style=flat-square&logo=gmail&logoColor=white&labelColor=1a1a1a)](mailto:pradhananubhab25@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-anubhabpradhan-8B0000?style=flat-square&logo=linkedin&logoColor=white&labelColor=1a1a1a)](https://www.linkedin.com/in/anubhabpradhan)
-[![GitHub](https://img.shields.io/badge/GitHub-ANUBprad-8B0000?style=flat-square&logo=github&logoColor=white&labelColor=1a1a1a)](https://github.com/ANUBprad)
-[![LeetCode](https://img.shields.io/badge/LeetCode-ANUBprad-8B0000?style=flat-square&logo=leetcode&logoColor=white&labelColor=1a1a1a)](https://leetcode.com/u/Anubhab25)
+**LLM & Agentic Systems:** Claude API, Groq, Ollama, LangChain, LangGraph, multi-agent orchestration, tool-use patterns, prompt engineering
 
-</div>
+**Machine Learning:** PyTorch, scikit-learn, XGBoost, SHAP, model evaluation, statistical testing, computer vision (OpenCV, InsightFace, RetinaFace, ArcFace)
+
+**Production ML:** ONNX inference, INT8/FP16 quantization, model versioning, A/B testing, inference optimization
+
+**Data & Databases:** PostgreSQL, ChromaDB, vector search, Redis, Celery, MongoDB
+
+**Full-Stack & DevOps:** FastAPI, React/Next.js, Docker, Kubernetes, GitHub Actions, CI/CD
+
+**Specializations:** Code audit & architecture analysis, system design, reliability engineering, evaluation methodology, agentic systems
+
+**Team Leadership:** ML Lead, Data Voyagers (university ML club) — coordinated technical strategy, mentored teammates on model selection and data preprocessing.
+
+**Certifications:** Data Science Job Simulation (Forage), Introduction to Machine Learning (NPTEL-SWAYAM), Full Stack Development (Infosys Springboard)
 
 ---
 
-<div align="center">
-<sub><i>"I did it for me. I liked it. I was good at it. And I was really — I was alive."</i></sub>
-<br/>
-<sub>— Walter White · Breaking Bad · S05E16</sub>
-</div>
+## Key Differentiators
+
+**System Design.** Full-stack ownership of multi-service architectures. Kairos spans Go gateway + Python services + TypeScript frontend with production-grade infrastructure.
+
+**Evaluation Rigor.** Statistical evaluation methodology, reproducible experiments, systematic metric design. 12+ IR metrics with confidence intervals; comprehensive LLM safety evaluations.
+
+**Production ML.** End-to-end ownership from research prototype to deployment. Clinical validation on real medical data; inference optimization reducing model size by 75% while maintaining accuracy.
+
+**Code Audit & Architecture.** 62K+ LOC analysis, god node detection, coupling analysis, complexity assessment, architectural debt assessment, refactoring roadmapping. Identified critical failure points and validated remediation strategies.
+
+**Agentic AI.** Multi-agent orchestration, tool integration, reasoning chains, failure analysis and remediation at scale.
+
+---
+
+## Connect
+
+📧 **Email:** [pradhananubhab25@gmail.com](mailto:pradhananubhab25@gmail.com)  
+🔗 **GitHub:** [github.com/ANUBprad](https://github.com/ANUBprad)  
+💼 **LinkedIn:** [linkedin.com/in/anubhabpradhan](https://www.linkedin.com/in/anubhabpradhan)  
+💻 **LeetCode:** [leetcode.com/u/Anubhab25](https://leetcode.com/u/Anubhab25)
