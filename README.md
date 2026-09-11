@@ -90,13 +90,3 @@ Co-authored "Benchmarking Instruction-Tuned Small Language Models on Extractive 
 
 **I trace agentic failures.** I don't just build agents—I trace execution patterns, identify hallucinations and routing errors, and fix them systematically with A/B testing.
 
-
-## Get in Touch
-
-Want to talk about LLM systems, production ML, evaluation rigor, or anything in between?
-
-📧 **Email:** [pradhananubhab25@gmail.com](mailto:pradhananubhab25@gmail.com)  
-💼 **LinkedIn:** [linkedin.com/in/anubhabpradhan](https://www.linkedin.com/in/anubhabpradhan)  
-💻 **LeetCode:** [leetcode.com/u/Anubhab25](https://leetcode.com/u/Anubhab25)
-
----
