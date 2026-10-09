@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="170" viewBox="0 0 900 170" role="img" aria-labelledby="title desc">
+<title id="title">Anubhab Pradhan</title><desc id="desc">Terminal-inspired profile banner.</desc>
+<rect x="1" y="1" width="898" height="168" rx="12" fill="#0d1117" stroke="#30363d"/>
+<circle cx="24" cy="22" r="5" fill="#ff5f56"/><circle cx="42" cy="22" r="5" fill="#ffbd2e"/><circle cx="60" cy="22" r="5" fill="#27c93f"/>
+<text x="82" y="27" fill="#8b949e" font-family="monospace" font-size="12">anubhab@github: ~</text>
+<text x="34" y="77" fill="#7ee787" font-family="monospace" font-size="15">$ whoami</text>
+<text x="34" y="112" fill="#f0f6fc" font-family="monospace" font-size="29" font-weight="700">Anubhab Pradhan</text>
+<text x="34" y="140" fill="#8b949e" font-family="monospace" font-size="14">AI / ML · LLM systems · Computer Vision</text>
+<rect x="552" y="92" width="9" height="23" fill="#7ee787"><animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.4;0.5;0.9;1" dur="1.2s" repeatCount="indefinite"/></rect>
+<path d="M34 153 H866" stroke="#30363d" stroke-width="1"/>
+</svg>
