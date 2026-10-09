@@ -1,4 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="14" viewBox="0 0 900 14" role="img" aria-label="Animated divider">
-<path d="M0 7 H900" stroke="#30363d" stroke-width="1"/>
-<circle cy="7" r="3" fill="#7ee787"><animate attributeName="cx" values="0;900;0" dur="5s" repeatCount="indefinite"/></circle>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="22" viewBox="0 0 900 22" role="img" aria-label="Animated terminal prompt divider">
+<path d="M0 11 H900" stroke="#30363d" stroke-width="1"/>
+<text x="2" y="15" fill="#7ee787" font-family="monospace" font-size="12">$</text>
+<path d="M18 11 H900" stroke="#30363d" stroke-width="1" stroke-dasharray="3 7"/>
+<rect x="18" y="7" width="6" height="8" fill="#7ee787"><animate attributeName="x" values="18;870;18" dur="7s" repeatCount="indefinite"/></rect>
 </svg>
