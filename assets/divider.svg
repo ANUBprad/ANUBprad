@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="14" viewBox="0 0 900 14" role="img" aria-label="Animated divider">
+<path d="M0 7 H900" stroke="#30363d" stroke-width="1"/>
+<circle cy="7" r="3" fill="#7ee787"><animate attributeName="cx" values="0;900;0" dur="5s" repeatCount="indefinite"/></circle>
+</svg>
