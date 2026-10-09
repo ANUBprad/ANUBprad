@@ -8,11 +8,6 @@
 
 <br>
 
-<a href="https://pradhan-e-portfolio.vercel.app">portfolio</a>
-&nbsp;&nbsp;·&nbsp;&nbsp;
-<a href="https://www.linkedin.com/in/anubhabpradhan/">linkedin</a>
-&nbsp;&nbsp;·&nbsp;&nbsp;
-<a href="mailto:anubprad@gmail.com">email</a>
 
 </div>
 
@@ -88,8 +83,5 @@ Working on applied AI/ML research around ICAC2N 2026.
 
 <br>
 
-<a href="https://pradhan-e-portfolio.vercel.app">portfolio</a>
-&nbsp;&nbsp;·&nbsp;&nbsp;
-<a href="https://www.linkedin.com/in/anubhabpradhan/">linkedin</a>
 
 </div>
